@@ -1,0 +1,212 @@
+#hidden_div
+{
+	display: none;
+	visibility: hidden;
+}
+
+@font-face {
+    font-family: "Roboto-Black";
+    src: url("Roboto-Black.ttf");
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("Roboto-Regular.ttf");
+}
+
+body {
+    margin: 0;
+    background-color: white;
+    font-family: "Roboto";
+    font-size: 2ex;
+    color: #313131;
+}
+
+nav {
+    margin: 0;
+    padding: 0;
+    background-color: #f00;
+    display: inline;
+    overflow: hidden;
+    z-index: 1000;
+    text-transform: uppercase;
+}
+
+nav ul {
+    background-color: #263238;
+    margin: 0;
+    padding: 0;
+    padding-left: 3ex;
+    overflow: hidden;
+    width: 100%;
+    height: 5ex;
+    top: 0;
+    position: fixed;
+    box-shadow: -1ex 0ex 0.7ex black;
+    font-size: 2.5ex;
+}
+
+nav ul li {
+    display: block;
+    list-style-type: none;
+    padding: none;
+    margin: none;
+    margin-left: 1ex;
+    margin-right: 1ex;
+    margin-top: 1.25ex;
+    float: left;
+}
+
+nav > ul > li > a:link, a:visited {
+    margin: 0px;
+    text-decoration: none;
+    color: #aac1cc;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition:.5s;
+}
+
+nav > ul > li > a:hover, a:active{
+    color: #e6e6e6;
+}
+
+a.active {
+    color: #52C5FF;
+}
+
+#nadd{
+    width: 30%;
+    float: left;
+    padding: 2ex;
+    background-color: #F4F4F4;
+    border: 1px solid #f4f4f4;
+    border-radius: 2px;
+    box-shadow: 0.2ex 0.2ex 1ex #b7b7b7;
+}
+
+input[type="text"] {
+    height: 5ex;
+    width: 96%;
+    padding-left: 1ex;
+    padding-right: 1ex;
+    background-color: #fff;
+    border: 1px solid #e3e3e3;
+    border-radius: 2px;
+    margin-bottom: 1ex;
+}
+
+input[type="text"]:focus {
+    border-color: #52C5FF;
+    box-shadow: inset 0ex 0.2ex 1ex #f4f4f4;
+}
+
+input[type="text"].date {
+    width: 28.5%;
+    text-align: center;
+}
+
+input[type="text"]:focus {
+    outline: none;
+}
+
+input[type="submit"] {
+    width: 99.5%;
+    height: 5ex;
+    margin-top: 1ex;
+    margin-bottom: 0.2ex;
+    background-color: #d1d1d1;
+    border: 1px solid #c7c7c7;
+    border-radius: 2px;
+    outline: none;
+    font-size: 2.2ex;
+    color: black;
+
+    /*color: #52C5FF;*/
+}
+
+input[type="submit"]:hover {
+    background-color: #c7c7c7;
+}
+
+input[type="number"] {
+    height: 5ex;
+    width: 96%;
+    padding-left: 1ex;
+    padding-right: 1ex;
+    background-color: #fff;
+    border: 1px solid #e3e3e3;
+    border-radius: 2px;
+    margin-bottom: 1ex;
+}
+
+input[type="number"]:focus {
+    border-color: #52C5FF;
+    box-shadow: inset 0ex 0.2ex 1ex #f4f4f4;
+}
+
+input[type="number"].date {
+    width: 28.5%;
+    text-align: center;
+}
+
+input[type="number"]:focus {
+    outline: none;
+}
+button {
+    background-color: transparent;
+    border: none;
+    margin-bottom: 1.5ex;
+    outline: none;
+    font-size: 2.2ex;
+}
+
+button img:hover, button:hover {
+    color: #fff;
+}  
+
+.styled-select {
+    height: 5ex;
+    width: 96%;
+    padding-left: 1ex;
+    padding-right: 1ex;
+    background-color: #fff;
+    border: 1px solid #e3e3e3;
+    border-radius: 2px;
+    margin-bottom: 1ex;
+}
+   
+#nlist{
+    width: 55%;
+    float: right;
+    display: inline;
+}
+
+#nlist_order{
+    width: 55%;
+    float: center;
+    display: inline;
+}
+
+.list {
+    width: 90%;
+}
+
+td {
+    text-align: center;
+    border: none;
+    padding: 5px;
+}
+
+.desc
+{
+    width: 300px;
+}
+
+div.container {
+    width: 100%;
+    margin: auto;
+    margin-top: 4%;
+    padding: 2ex;
+}
